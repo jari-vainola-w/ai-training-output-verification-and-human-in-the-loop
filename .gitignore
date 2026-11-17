@@ -1,0 +1,6 @@
+.idea/
+dist/
+node_modules/
+/.claude/worktrees
+backend/data/
+.playwright-mcp
