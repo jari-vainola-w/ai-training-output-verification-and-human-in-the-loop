@@ -1,0 +1,10 @@
+{
+  "name": "module9-lab",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --names \"api,web\" \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
